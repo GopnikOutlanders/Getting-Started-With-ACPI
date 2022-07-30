@@ -111,7 +111,6 @@ And voila! We've found our ACPI path, now that we have everything we're ready to
 To start grab our [SSDT-GPU-SPOOF](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/decompiled/SSDT-GPU-SPOOF.dsl.zip) and open it up. Here there's a couple things to change:
 
 ```
-External (_SB_.PCI0, DeviceObj)
 External (_SB_.PCI0.PEG0.PEGP, DeviceObj)
 ```
 
